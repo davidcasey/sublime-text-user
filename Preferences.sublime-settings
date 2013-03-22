@@ -1,0 +1,35 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Theme - Studio Casey/Monokai Soda.tmTheme",
+	"detect_indentation": false,
+	"disable_tab_abbreviations": true,
+	"ensure_newline_at_eof_on_save": false,
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		"dump.rdb"
+	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		".sass-cache",
+		"coverage",
+		"log",
+		"tmp"
+	],
+	"font_size": 11.0,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	],
+	"save_on_focus_lost": true,
+	"scroll_past_end": true,
+	"soda_classic_tabs": true,
+	"tab_size": 2,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": true,
+	"vintage_start_in_command_mode": true,
+	"word_wrap": false,
+	"wrap_width": 80
+}
