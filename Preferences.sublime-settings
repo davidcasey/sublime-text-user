@@ -1,6 +1,6 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Theme - Studio Casey/Monokai Soda.tmTheme",
+	"color_scheme": "Packages/Monokai-Dark-Soda.tmTheme-master/Monokai Dark Soda.tmTheme",
 	"detect_indentation": false,
 	"disable_tab_abbreviations": true,
 	"ensure_newline_at_eof_on_save": false,
@@ -17,8 +17,8 @@
 		"log",
 		"tmp"
 	],
-	"font_face": "Inconsolata",//Courier, Andale Mono, Monaco, Droid Sans Mono, Inconsolata
-	"font_size": 12,
+	"font_face": "Inconsolata",
+	"font_size": 13.0,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
