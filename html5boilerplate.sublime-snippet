@@ -14,7 +14,7 @@
 
 	<link rel="stylesheet" href="/assets/css/style.css">
 
-	<script src="/assets/js/plugins/modernizr-2.6.1.min.js"></script>
+	<script src="/assets/js/plugins/modernizr.min.js"></script>
 	<script type="text/javascript">var gOverride={urlBase:'http://gridder.andreehansson.se/releases/latest/',gColor:'#AABBCC',gColumns:24,gOpacity:0.35,gWidth:10,pColor:'#C0C0C0',pHeight:20,pOffset:0,pOpacity:0.55,center:true,gEnabled:true,pEnabled:true,setupEnabled:true,fixFlash:true,size:960};</script>
 </head>
 <body>
@@ -42,19 +42,18 @@
 	</footer>
 </div> <!-- /#wrapper -->
 
-	jquery${2}
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/${2}1.10.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="/assets/js/plugins/jquery-${3}1.10.2.min.js"><\/script>')</script>
 
 	<!-- <script src="/assets/js/plugins.js?v=1"></script> -->
 	<!-- <script src="/assets/js/script.js?v=1"></script> -->
 
-	<script>
-	/*
+	<script>/*
 		var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
 		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
 		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 		s.parentNode.insertBefore(g,s)}(document,'script'));
-	*/
-	</script>
+	*/</script>
 
 </body>
 </html>

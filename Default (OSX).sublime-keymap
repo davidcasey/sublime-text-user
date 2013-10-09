@@ -12,14 +12,23 @@
 	{ "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace"} },
 	{ "keys": ["super+alt+f"], "command": "show_panel", "args": {"panel": "find"} },
 
+	// Alignment
+	{ "keys": ["super+shift+a"], "command": "alignment" },
+
 	// Title Case, Swap Case (in addition to lower: super+k, super+l and upper: super+k, super+u)
 	{ "keys": ["super+k", "super+s"], "command": "swap_case" },
 	{ "keys": ["super+k", "super+t"], "command": "title_case" },
 
+	// Toggle Quotes @reqired toggle-quotes.py
+	{ "keys": ["ctrl+super+q"], "command": "toggle_quotes"},
+
+	// Toggle Word Wrap
+	{ "keys": ["ctrl+alt+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
+
 	// Toggle Minimap
 	{ "keys": ["super+k", "super+m"], "command": "toggle_minimap" },
 
-	// Toggle Rulers
+	// Toggle Rulers @reqired toggle-rulers.py
 	{
 		"keys": ["super+semicolon"], "command": "toggle_rulers",
 		"args": { "values": [80, 120] }
@@ -60,5 +69,69 @@
 	{ "keys": ["alt+1"], "command": "move_to_group", "args": { "group": 0 } },
 	{ "keys": ["alt+2"], "command": "move_to_group", "args": { "group": 1 } },
 	{ "keys": ["alt+3"], "command": "move_to_group", "args": { "group": 2 } },
-	{ "keys": ["alt+4"], "command": "move_to_group", "args": { "group": 3 } }
+	{ "keys": ["alt+4"], "command": "move_to_group", "args": { "group": 3 } },
+
+	// HTML Tidy
+	{ "keys": ["ctrl+alt+t"], "command": "html_tidy"},
+	{ "keys": ["ctrl+alt+r"], "command": "reindent" , "args": {"single_line": true}},
+
+	// SublimeLint
+	{ "keys": ["ctrl+super+e"], "command": "find_next_lint_error" },
+	{ "keys": ["ctrl+super+shift+e"], "command": "find_previous_lint_error" },
+
+	///////////////////////////////
+
+	//SublimeCodeIntel
+	{ "keys": ["super+j"], "command": "code_intel_auto_complete" },
+	{ "keys": ["super+f3"], "command": "goto_python_definition" },
+	    { "keys": ["super+alt+ctrl+left"], "command": "back_to_python_definition"},
+
+	//Gists (sublime-github, select text, launch Command Pallete and type Git...)
+	{ "caption": "Github: Private Gist from Selection", "command": "private_gist_from_selection" },
+	{ "caption": "Github: Public Gist from Selection", "command": "public_gist_from_selection" },
+
+	//Open last closed file
+	//{ "keys": ["ctrl+shift+t"], "command": "open_recently_closed_file", "args": {"show_quick_panel": true} },
+	//{ "keys": ["ctrl+alt+shift+t"], "command": "open_recently_closed_file" },
+
+	//Google it
+	//{ "keys": ["ctrl+super+g"], "command": "google_it" },
+
+	//Git
+	{ "keys": ["ctrl+super+c"], "command": "git_commit"},
+	{ "keys": ["ctrl+super+a"], "command": "git_add"},
+	{ "keys": ["ctrl+super+t"], "command": "git_reset"},
+	{ "keys": ["ctrl+super+r"], "command": "git_rm"},
+	{ "keys": ["ctrl+super+d"], "command": "git_diff"},
+	{ "keys": ["ctrl+super+s"], "command": "git_status"},
+	{ "keys": ["ctrl+super+l"], "command": "git_log"},
+	{ "keys": ["ctrl+super+b"], "command": "git_blame"},
+
+	//Close tag
+	{ "keys": ["super+."], "command": "close_tag" }
+
+	//Pretty Ruby
+	//{ "keys": ["super+shift+r"], "command": "pretty_ruby" },
+
+	//TransmitDocksend
+	//{ "keys": ["super+u"], "command": "transmit_docksend" },
+
+	//Latex (more on readme)
+	// { "keys": ["ctrl+alt+t"], "command": "make_pdf" }, // now bound to Command-B via the standard build system
+	//{ "keys": ["ctrl+super+p"], "command": "jump_to_pdf"},
+
+	//Terminal
+	//{ "keys": ["super+shift+t"], "command": "open_terminal" },
+	//{ "keys": ["super+shift+alt+t"], "command": "open_terminal_project_folder" },
+
+	//Open Inlude
+	//{ "keys": ["super+shift+o"], "command": "open_include" },
+
+	//RSpec
+	//{ "keys": ["super+alt+b"], "command": "exec", "args": {"cmd": ["rake", "spec"]}, "file_regex": "# ([A-Za-z0-9_./ ]+rb):([0-9]+)", "working_dir": "${folder}"},
+	//{ "keys": ["super+alt+period"], "command": "open_rspec_file", "args": {"option": "test_and_source"} },
+	//{ "keys": ["super+period"], "command": "open_rspec_file", "args": {"option": "next"} },
+	//{ "keys": ["super+alt+s"], "command": "open_rspec_file", "args": {"option": "source"} },
+	//{ "keys": ["super+alt+t"], "command": "open_rspec_file", "args": {"option": "test"} }
+
 ]

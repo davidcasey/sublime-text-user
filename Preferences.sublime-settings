@@ -17,12 +17,15 @@
 		"log",
 		"tmp"
 	],
-	"font_size": 11.0,
+	"font_face": "Inconsolata",//Courier, Andale Mono, Monaco, Droid Sans Mono, Inconsolata
+	"font_size": 12,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 	],
-	"save_on_focus_lost": true,
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"save_on_focus_lost": false,
 	"scroll_past_end": true,
 	"soda_classic_tabs": true,
 	"tab_size": 2,
@@ -31,5 +34,5 @@
 	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true,
 	"word_wrap": false,
-	"wrap_width": 80
+	"wrap_width": 120
 }
